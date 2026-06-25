@@ -1,10 +1,6 @@
-# mini-modern-llm-from-scratch
-
-Built a Modern Transformer Language Model from Scratch using PyTorch with RMSNorm, RoPE, Grouped Query Attention (GQA), and SwiGLU. Trained on the Tiny Shakespeare dataset for next-character prediction.
-
 # Mini Modern LLM from Scratch
 
-A modern Transformer Language Model built entirely from scratch in PyTorch.
+Built a Modern Transformer Language Model from Scratch using PyTorch with RMSNorm, RoPE, Grouped Query Attention (GQA), and SwiGLU. Trained on the Tiny Shakespeare dataset for next-character prediction.
 
 This project implements several architectural improvements used in modern Large Language Models such as LLaMA, Gemma, Mistral, and Qwen.
 
@@ -39,16 +35,16 @@ Input Tokens
 
 ## Model Configuration
 
-| Parameter            | Value      |
-| -------------------- | ---------- |
-| Embedding Dimension  | 256        |
-| Transformer Layers   | 8          |
-| Query Heads          | 8          |
-| KV Heads             | 2          |
-| FFN Hidden Dimension | 680        |
-| Context Length       | 256        |
-| Vocabulary Size      | 65         |
-| Parameters           | ~4 Million |
+| Parameter            | Value        |
+| -------------------- | ------------ |
+| Embedding Dimension  | 256          |
+| Transformer Layers   | 8            |
+| Query Heads          | 8            |
+| KV Heads             | 2            |
+| FFN Hidden Dimension | 680          |
+| Context Length       | 256          |
+| Vocabulary Size      | 65           |
+| Parameters           | ~5.5 Million |
 
 ## Concepts Implemented
 
@@ -106,7 +102,7 @@ The model learns Shakespeare-like formatting, punctuation, and character pattern
 ## Summary
 
 <p align="center">
-  <img src="images/project_summary.png" width="900">
+  <img src="Images/project_summary.png" width="900">
 </p>
 
 ## Learning Outcomes
